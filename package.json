@@ -1,0 +1,32 @@
+{
+  "name": "Webpack/React/Karma/Mocha Starter",
+  "version": "0.0.1",
+  "description": "Webpack/React/Karma/Mocha Starter",
+  "main": "app/main.js",
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start --auto-watch",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build",
+    "deploy": "NODE_ENV=production webpack -p"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "babel-core": "^5.8.21",
+    "babel-loader": "^5.3.2",
+    "chai": "^3.2.0",
+    "expect": "^1.8.0",
+    "karma": "^0.13.8",
+    "karma-chai": "^0.1.0",
+    "karma-chai-plugins": "^0.6.0",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-cli": "^0.1.0",
+    "karma-mocha": "^0.2.0",
+    "karma-sourcemap-loader": "^0.3.5",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.2.5",
+    "react": "^0.13.3",
+    "webpack": "^1.11.0",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
