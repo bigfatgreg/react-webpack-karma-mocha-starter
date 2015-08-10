@@ -1,6 +1,6 @@
-var React 		= require('react/addons');
-var Root 			= require('../../app/components/root');
-var expect 		= require('expect')
+var React     = require('react/addons');
+var Root      = require('../../app/components/root');
+var expect    = require('expect')
 var TestUtils = React.addons.TestUtils;
 
 describe('Root', function() {

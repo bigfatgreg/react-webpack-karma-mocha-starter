@@ -1,5 +1,5 @@
 {
-  "name": "Webpack/React/Karma/Mocha Starter",
+  "name": "react-webpack-karma-mocha-starter",
   "version": "0.0.1",
   "description": "Webpack/React/Karma/Mocha Starter",
   "main": "app/main.js",
